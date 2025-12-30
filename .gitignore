@@ -1,13 +1,29 @@
-# Ignorer les fichiers système et logs
-.htaccess
+# --- SÉCURITÉ ET CONFIGURATION ---
+# Ne jamais mettre vos accès aux bases de données en ligne !
 wp-config.php
+.htaccess
+advanced-cache.php
+sitemap.xml
+sitemap.xml.gz
+
+# --- DOSSIERS LOURDS ET TEMPORAIRES ---
+# On n'envoie pas les images/médias (trop lourd pour GitHub)
 wp-content/uploads/
 wp-content/cache/
 wp-content/upgrade/
-node_modules/
-*.log
+wp-content/blogs.dir/
 
-# Optionnel : Si vous ne voulez versionner QUE vos thèmes/plugins
-# wp-admin/
-# wp-includes/
-# *.php
+# --- FICHIERS SYSTÈME ET LOGS ---
+*.log
+.DS_Store
+Thumbs.db
+wp-content/*.log
+node_modules/
+.env
+
+# --- CŒUR DE WORDPRESS (Optionnel mais recommandé) ---
+# Si vous voulez un dépôt propre, n'envoyez que votre travail (thèmes/plugins)
+# Décommentez les lignes ci-dessous si vous voulez ignorer le cœur WP :
+ wp-admin/
+ wp-includes/
+*.php
