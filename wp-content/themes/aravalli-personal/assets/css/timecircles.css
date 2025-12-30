@@ -1,0 +1,162 @@
+/**
+ *	This element is created inside your target element
+ *	It is used so that your own element will not need to be altered
+ **/
+ .countdown-container{
+    text-align: center;
+ }
+
+.time_circles {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.time_circles > div {
+    position: absolute;
+    text-align: center;
+    width: 80%;
+}
+
+.time_circles > div > h4 {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.time_circles > div > span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 300%;
+    margin-top: 0.4em;
+    font-weight: bold;
+}
+#logo{
+    padding: 40px 0;
+    }
+.countdown-container{
+    min-height: 600px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#DateCountdownWrap{
+    width: 800px;
+    position: absolute;
+    left: 50%;
+    margin-left: -400px;
+    top: 50%;
+    margin-top: -150px;
+    }  
+
+.time_circles canvas{
+    width: 100%;
+    }
+
+.countdown-container .social-bar{
+    bottom:20px;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    position: absolute;
+    }
+
+.countdown-container .socials{
+    float:none;
+    margin: 0;
+    }
+.countdown-container .socials a:hover{
+        background-color:transparent;
+        -ms-transform: translateY(-5px); /* IE 9 */
+        -webkit-transform: translateY(-5px); /* Chrome, Safari, Opera */
+        transform: translateY(-5px);
+    }
+
+
+.social-bar .socials {
+    float: none;
+    line-height: 30px;
+}
+
+.countdown-container .social-bar .socials a {
+    border-radius: 100%;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 3px;
+    text-align: center;
+    vertical-align: middle;
+    width: 30px;
+}
+
+.social-bar .socials a.facebook {
+    background: none repeat scroll 0 0 #1f69b3;
+}
+
+.social-bar .socials a.twitter {
+    background: none repeat scroll 0 0 #43b3e5;
+}
+
+.social-bar .socials a.gplus {
+    background: none repeat scroll 0 0 #d84734;
+}
+
+.social-bar .socials a.youtube {
+    background: none repeat scroll 0 0 #df2126;
+}
+
+.social-bar .socials a.pinterest {
+    background: none repeat scroll 0 0 #ff3635;
+}
+
+.social-bar .socials a.linkedin {
+    background: none repeat scroll 0 0 #1a7696;
+}
+
+.social-bar .socials a.flickr {
+    background: none repeat scroll 0 0 #e1e2dd;
+}
+
+.social-bar .socials a.vimeo {
+    background: none repeat scroll 0 0 #7fdde8;
+}
+
+.social-bar .socials a.instagram {
+    background: none repeat scroll 0 0 #c8c5b3;
+}
+
+.social-bar .socials a.tumblr {
+    background: #395976;
+}
+
+.social-bar .socials a.rss {
+    background: none repeat scroll 0 0 #fbc95d;
+}
+
+.social-bar .socials a.github {
+    background: none repeat scroll 0 0 #383838;
+}
+
+.social-bar .socials a.stumbleupon {
+    background: none repeat scroll 0 0 #e94c29;
+}
+
+.social-bar .socials a.skype {
+    background: none repeat scroll 0 0 #09c6ff;
+}
+
+.social-bar .socials .social-icons span {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.social-bar .socials .social-icons i {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
