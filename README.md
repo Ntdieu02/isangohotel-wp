@@ -1,5 +1,7 @@
 #  Isango Hotel 
 
+![Capture d'écran du site]git(./images/screenshot.png)
+
 Bienvenue sur le dépôt GitHub du site web de l'Hôtel Isango. Ce projet est basé sur WordPress.
 
 ##  À propos de ce projet
